@@ -39,7 +39,7 @@ public:
         return subjectName; 
     };
 
-    virtual std::string getGradeString() = 0;
+    
 };
 
 class btec60CreditL3Grade : public AbstractGrade {
